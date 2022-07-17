@@ -589,24 +589,48 @@ blockquote {
   background-image: url('../images/apartman-14.jpg');
 }
 
+.paralax-slide.slide1.hotel {
+  background-image: url('../images/hotel-16.jpg');
+}
+
 .paralax-slide.slide2 {
   background-image: url('../images/apartman-7.jpg');
+}
+
+.paralax-slide.slide2.hotel {
+  background-image: url('../images/hotel-14_1.jpg');
 }
 
 .paralax-slide.slide3 {
   background-image: url('../images/apartman-22.jpg');
 }
 
+.paralax-slide.slide3.hotel {
+  background-image: url('../images/hotel-1.jpg');
+}
+
 .paralax-slide.slide4 {
   background-image: url('../images/apartman-20.jpg');
+}
+
+.paralax-slide.slide4.hotel {
+  background-image: url('../images/hotel-12.jpg');
 }
 
 .paralax-slide.slide5 {
   background-image: url('../images/DSC_0816.jpg');
 }
 
+.paralax-slide.slide5.hotel {
+  background-image: url('../images/hotel-19.jpg');
+}
+
 .paralax-slide.slide6 {
   background-image: url('../images/apartman-34.jpg');
+}
+
+.paralax-slide.slide6.hotel {
+  background-image: url('../images/DSC_0636-min.JPG');
 }
 
 .image-2 {
@@ -1526,7 +1550,12 @@ blockquote {
 }
 
 .logo-container {
-  position: absolute;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1581,6 +1610,8 @@ blockquote {
 }
 
 .text-container {
+  position: relative;
+  z-index: 2;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1621,6 +1652,17 @@ blockquote {
   background-color: #e9ce91;
   color: #e9ce91;
   font-size: 1px;
+}
+
+.div-block-7 {
+  position: relative;
+  width: 20vw;
+  height: 20vh;
+  margin-top: 3.2vh;
+  background-image: url('../images/Logo-gradient.svg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 991px) {
