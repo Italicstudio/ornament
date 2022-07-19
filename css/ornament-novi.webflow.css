@@ -391,6 +391,22 @@ blockquote {
   margin-top: 0vh;
 }
 
+.center-title.centered {
+  margin-top: 0vh;
+}
+
+.center-title.historic-place {
+  margin-top: 0vh;
+}
+
+.center-title.live-history {
+  margin-top: 0vh;
+}
+
+.center-title.view {
+  margin-top: 0vh;
+}
+
 .script {
   margin-top: 0em;
   padding-top: 0px;
@@ -465,6 +481,10 @@ blockquote {
 .image.option2.map {
   width: 43.5em;
   background-image: url('../images/Map.png');
+}
+
+.image.option2.map.map2 {
+  background-image: url('../images/Map-2.png');
 }
 
 .image.option2.motel {
@@ -586,50 +606,62 @@ blockquote {
 }
 
 .paralax-slide.slide1 {
+  padding-bottom: 0px;
   background-image: url('../images/apartman-14.jpg');
 }
 
 .paralax-slide.slide1.hotel {
+  padding-bottom: 0px;
   background-image: url('../images/hotel-16.jpg');
 }
 
 .paralax-slide.slide2 {
+  padding-bottom: 0px;
   background-image: url('../images/apartman-7.jpg');
 }
 
 .paralax-slide.slide2.hotel {
+  padding-bottom: 0px;
   background-image: url('../images/hotel-14_1.jpg');
 }
 
 .paralax-slide.slide3 {
+  padding-bottom: 0px;
   background-image: url('../images/apartman-22.jpg');
 }
 
 .paralax-slide.slide3.hotel {
+  padding-bottom: 0px;
   background-image: url('../images/hotel-1.jpg');
 }
 
 .paralax-slide.slide4 {
+  padding-bottom: 0px;
   background-image: url('../images/apartman-20.jpg');
 }
 
 .paralax-slide.slide4.hotel {
+  padding-bottom: 0px;
   background-image: url('../images/hotel-12.jpg');
 }
 
 .paralax-slide.slide5 {
+  padding-bottom: 0px;
   background-image: url('../images/DSC_0816.jpg');
 }
 
 .paralax-slide.slide5.hotel {
+  padding-bottom: 0px;
   background-image: url('../images/hotel-19.jpg');
 }
 
 .paralax-slide.slide6 {
+  padding-bottom: 0px;
   background-image: url('../images/apartman-34.jpg');
 }
 
 .paralax-slide.slide6.hotel {
+  padding-bottom: 0px;
   background-image: url('../images/DSC_0636-min.JPG');
 }
 
@@ -1353,13 +1385,11 @@ blockquote {
 }
 
 .button-2 {
-  position: absolute;
-  left: 36%;
-  bottom: -5%;
+  position: static;
+  left: 35%;
+  bottom: -106%;
   z-index: 2;
-  margin-top: 0em;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0em auto -1.6em;
   padding: 20px 62px;
   background-color: #cc9461;
   font-family: Poppins, sans-serif;
@@ -1371,7 +1401,8 @@ blockquote {
   height: 22em;
   background-image: url('../images/Pattern.svg');
   background-position: 50% 0%;
-  background-size: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .utility-page-wrap {
@@ -1616,6 +1647,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 8%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1663,6 +1695,38 @@ blockquote {
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.div-block-8 {
+  width: 100%;
+  height: 100%;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.contact-link {
+  color: #cc9461;
+}
+
+.phone-link {
+  color: #cc9461;
 }
 
 @media screen and (max-width: 991px) {
@@ -1801,7 +1865,7 @@ blockquote {
   .circular-logo {
     width: 12em;
     height: 13.5em;
-    margin-left: -35px;
+    margin-left: 0px;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -1824,6 +1888,7 @@ blockquote {
 
   .button-2 {
     left: 25%;
+    margin-bottom: -2em;
     font-size: 1.6em;
   }
 
@@ -1849,6 +1914,10 @@ blockquote {
   .nav-menu-2 {
     height: 100vh;
     background-color: rgba(5, 40, 58, 0.96);
+  }
+
+  .footer-image {
+    background-size: cover;
   }
 
   .imgoverlay._1 {
@@ -1895,6 +1964,13 @@ blockquote {
     left: 60%;
     top: -8.7vh;
     width: 45%;
+  }
+
+  .button-2 {
+    position: static;
+    left: 19%;
+    bottom: -109%;
+    margin-bottom: -2.5em;
   }
 
   .img-container.container1 {
@@ -1978,6 +2054,7 @@ blockquote {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 15vh;
     margin-right: auto;
     margin-left: auto;
     -webkit-box-pack: center;
@@ -2001,6 +2078,10 @@ blockquote {
     white-space: normal;
     -o-object-fit: fill;
     object-fit: fill;
+  }
+
+  .center-title.historic-place {
+    margin-top: 0vh;
   }
 
   .script {
@@ -2238,7 +2319,10 @@ blockquote {
 
   .button-2 {
     left: 8%;
-    bottom: -7%;
+    bottom: -123%;
+    margin-right: auto;
+    margin-bottom: -3.2em;
+    margin-left: auto;
     font-size: 2.6em;
   }
 
